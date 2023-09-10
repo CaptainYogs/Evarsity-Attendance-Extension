@@ -1,2 +1,4 @@
 # Evarsity-Attendance-Extension
- Simple Extension that helps you to manage your attendance in Evarsity
+ Simple Extension that helps you to manage your attendance in Evarsity.
+ Shows the number of classes you can miss before your attendance gets below 75%,
+ and shows the number of classes you have to attend so that your attendance gets above 75%. 
