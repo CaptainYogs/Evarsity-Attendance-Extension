@@ -5,9 +5,6 @@
     "description": "Manage your Attendance on Evarsity",
     "permissions": ["activeTab", "tabs", "scripting", "storage"],
     "host_permissions": ["https://sp.srmist.edu.in/*"],
-    "background": {
-      "service_worker": "background.js"
-    },
     "content_scripts": [
       {
         "matches": ["https://sp.srmist.edu.in/*"],
