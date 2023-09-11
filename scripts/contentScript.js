@@ -33,5 +33,15 @@ chrome.runtime.onMessage.addListener((obj, sender, sendResponse) => {
             }
         }
     }
+    else if(obj.act == "hide"){
+        const body = document.querySelector(".table.mb-0 tbody");
+        const rows = body.querySelectorAll('tr');
+        for (var i = 0; i < rows.length - 1; i++) {
+            var lastChild = rows[i].querySelector('td:last-child');
+            lastChild.style.color = 'black';
+            var lastChildValue = lastChild.textContent;
+            lastChild.textContent = lastChildValue.split(" ")[0];
+        }
+    }
 
 }); 

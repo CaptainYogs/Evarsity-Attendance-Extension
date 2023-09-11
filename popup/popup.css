@@ -1,11 +1,12 @@
 .container{
     width: 200px;
     text-align: center;
-    background-color: rgb(208, 110, 110);
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(0, 0, 0);
 }
 
 #pwrbtn{
-    padding: 5px;
     width: 40px;
     height: 40px;
 }
