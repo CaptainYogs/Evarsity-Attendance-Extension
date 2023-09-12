@@ -1,23 +1,45 @@
 .container{
     width: 200px;
     text-align: center;
-    font-weight: bolder;
-    color: white;
+    color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
 }
 
-#pwrbtn{
-    width: 40px;
-    height: 40px;
+#title{
+    font-size: larger;
+    font-weight: bolder;
 }
 
 #btn{
-    padding: 10px 20px;
+    padding: 20px 20px;
     cursor: pointer;
     border-radius: 100px;
     box-shadow: 1px 1px 1px black;
 }
 
+#pwrbtn{
+    width: 30px;
+    height: 30px;
+}
+
+/* .ctr{
+    padding-top: 2px;
+} */
+
 #btn:hover{
     background-color: rgb(88, 185, 220);
+}
+
+#gith{
+    color: white;
+    text-decoration: none;
+    font-size: smaller;
+}
+
+#gith:hover{
+    color: rgb(255, 0, 0);
+}
+
+#gith:visited{
+    color: white;
 }
