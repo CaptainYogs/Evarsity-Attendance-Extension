@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Evarsity Attendance Manager",
+    "name": "Evarsity Manager",
     "version": "0.0.1",
-    "description": "Manage your Attendance on Evarsity",
+    "description": "Manage your Evarsity",
     "permissions": ["tabs"],
     "host_permissions": ["https://sp.srmist.edu.in/*"],
     "content_scripts": [
@@ -16,7 +16,7 @@
     },
     "action": {
       "default_icon": {"128": "/icons/AM128.png"},
-      "default_title": "Attendance Manager",
+      "default_title": "Evarsity Manager",
       "default_popup": "/popup/popup.html"
     },
     "author": {
